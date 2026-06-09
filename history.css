@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Yu Gothic",sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#0f4c81;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#16324f;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav li{
+    margin:0 15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    text-align:center;
+    background:#0f4c81;
+    color:white;
+    padding:20px;
+}
