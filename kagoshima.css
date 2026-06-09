@@ -1,0 +1,62 @@
+/* 全体のベース設定 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 各セクションをカードに見立てる */
+section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 5px solid #ccc; /* デフォルトの左線 */
+}
+
+/* 見出しのデザイン */
+h1 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* 説明文のデザイン */
+p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* --- 各項目ごとの個別カラー --- */
+
+/* 鹿屋の日本兵：歴史・厳粛 */
+.history {
+    border-left-color: #5d6d7e; 
+}
+.history h1 { color: #2c3e50; }
+
+/* 鹿屋バラ園：華やか・観光 */
+.rose-garden {
+    border-left-color: #e91e63;
+}
+.rose-garden h1 { color: #ad1457; }
+
+/* 桜島大根：特産品・活気 */
+.daikon {
+    border-left-color: #4caf50;
+}
+.daikon h1 { color: #2e7d32; }
+
+/* おはら祭り・鉦踊り：伝統・祭事 */
+.festival {
+    border-left-color: #ff9800;
+}
+.festival h1 { color: #e65100; }
